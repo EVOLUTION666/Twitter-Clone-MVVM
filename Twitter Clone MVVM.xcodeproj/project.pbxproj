@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5578FB4C283A98F600BAA6C9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5578FB4B283A98F600BAA6C9 /* Extensions.swift */; };
 		55B4766C2838250800CB5B6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B4766B2838250800CB5B6D /* AppDelegate.swift */; };
 		55B4766E2838250800CB5B6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B4766D2838250800CB5B6D /* SceneDelegate.swift */; };
 		55B476752838250B00CB5B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55B476742838250B00CB5B6D /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5578FB4B283A98F600BAA6C9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		55B476682838250800CB5B6D /* Twitter Clone MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitter Clone MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B4766B2838250800CB5B6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55B4766D2838250800CB5B6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		55B476842838256C00CB5B6D /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				5578FB4B283A98F600BAA6C9 /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				55B4768C2838285700CB5B6D /* NotificationsController.swift in Sources */,
 				55B4768E2838286F00CB5B6D /* ConversationsController.swift in Sources */,
 				55B4766C2838250800CB5B6D /* AppDelegate.swift in Sources */,
+				5578FB4C283A98F600BAA6C9 /* Extensions.swift in Sources */,
 				55B4768A2838278700CB5B6D /* ExploreController.swift in Sources */,
 				55B4766E2838250800CB5B6D /* SceneDelegate.swift in Sources */,
 				55B476862838260800CB5B6D /* MainTabController.swift in Sources */,
