@@ -14,11 +14,12 @@ class MainTabController: UITabBarController {
     private lazy var actionButton: UIButton = {
         let button = UIButton(type: .system)
         button.tintColor = .white
-        button.backgroundColor = .blue
+        button.backgroundColor = UIColor.twitterBlue
         button.setImage(UIImage(named: "new_tweet"), for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.layer.cornerRadius = 56 / 2
         button.clipsToBounds = true
+        button.addTarget(self, action: #selector(actionButtonTapped), for: .touchUpInside)
         return button
     }()
     
@@ -95,4 +96,14 @@ extension MainTabController {
         tabBar.tintColor = .systemBlue
         tabBar.unselectedItemTintColor = .white
     }
+}
+
+//MARK: - Selectors
+
+extension MainTabController {
+    
+    @objc func actionButtonTapped() {
+        print(123)
+    }
+    
 }
